@@ -37,7 +37,7 @@ struct ExerciseView: View {
     let exerciseNames = ["Squat", "Step Up", "Burpee", "Sun Salute"]
     let index: Int
     var body: some View {
-        Text(exerciseNames[0])    }
+        Text(exerciseNames[index])    }
 }
 
 #Preview {
